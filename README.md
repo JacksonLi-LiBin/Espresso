@@ -1,26 +1,34 @@
 # Espresso Android App
-![icon](https://github.com/TonnyL/Espresso/blob/master/mobile/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
+
+[![Build Status](https://travis-ci.org/TonnyL/Espresso.svg?branch=master)](https://travis-ci.org/TonnyL/Espresso)
+
+<div align="center">
+	<img src="./art/logo.png" width="128" alt="logo">
+</div>
 
 Espresso is an express delivery tracking app designed with Material Design style, built on MVP(Model-View-Presenter) architecture with RxJava2, Retrofit2, Realm database and ZXing.
 
 The source code in this repository reflects the app which supports mobile devices running Android 5.0+.
 
-### Features
-With this app, you can:
+### About This Repository And App
+This app is inspired by [PackageTracker](https://github.com/fython/PackageTracker) which is developed by [fython](https://github.com/fython) and has a lot of similar elements in design and function with it. Thanks for the contributions of fython and his team.
 
-+ Support over 600 express companies.
-+ Add packages by inputting the package number or just scanning the express sheet.
-+ Recognize the company of a package automatically.
-+ View the package's details such as the latest location.
-+ Search information about the express companies.
-+ Launcher widgets.
-+ Get important notification when the package is on delivery.
-+ Send feedback on using experience from your devices.
+### Features
+
++ Over than 640 express companies all over the world are supported.
++ Support add packages by inputting the package number manually or just scanning the express sheet.
++ Support recognize the company of a package automatically.
++ Support view the package's details such as the latest location.
++ Support search packages that you added and the information about the express companies.
++ Launcher widgets are provided.
++ Day mode and night mode are supported.
++ Support push notification when the package is refreshed.
++ Support send feedback on using experience from your devices.
 
 ### Screenshots
-![screenshot0](https://github.com/TonnyL/Espresso/blob/master/art/screenshot0.png)
+![screenshot0](./art/screenshot0.png)
 
-![screenshot1](https://github.com/TonnyL/Espresso/blob/master/art/screenshot1.png)
+![screenshot1](./art/screenshot1.png)
 
 ### How to Work with the Source
 I hope the source code for this app is useful for you as a reference or starting point for creating your own app. Here is some instructions to help you better build and run the code in Android Studio.
@@ -37,7 +45,7 @@ Check out the master branch:
 git checkout master
 ```
 
-Notice: If you want to review a different branch, replace the `master` with the name you want to checkout if it does exist. Finally open the `Espresso/` directory in Android Studio.
+Notice: If you want to review a different branch, replace the `master` with the name you want to checkout (if it does exist). Finally open the `Espresso/` directory in Android Studio.
 
 Suggestion: It is better for you to update your Android Studio to version 2.3 when you open this project.
 
@@ -47,14 +55,13 @@ This project is still in progress. Here are the some features that I will finish
 - [x] Refreshing package details by accessing the network.
 - [x] Launcher app widgets.
 - [x] App Shortcuts on devices that running Android 7.1+.
-- [x] Material design app onboarding pages.
+- [x] Material design app onboard pages.
 - [x] Chrome Custom Tabs.
 - [x] Alphabet indexing for companies list.
 - [x] Search packages and companies.
-- [ ] Day and night mode.
+- [x] Day and night mode.
 - [x] Service to build notifications.
 - [x] Settings and about page.
-- [ ] Supporting Android Wear.
 - [ ] UI test and unit test.
 
 ### Help Me Improve This App
